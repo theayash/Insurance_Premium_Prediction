@@ -1,0 +1,6 @@
+{
+  "params": {
+    "upload_location":"G:\\backUp\\PycharmProjects\\InsurancePremium\\predictionFromDB\\",
+    "server_location": "mongodb://localhost:27017/"
+  }
+}

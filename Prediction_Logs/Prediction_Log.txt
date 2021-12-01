@@ -1,0 +1,103 @@
+2021-11-30/13:30:43		Entered the is_null_present method of the Preprocessor class
+2021-11-30/13:30:43		Exception occured in is_null_present method of the Preprocessor class. Exception message:  'Preprocessing' object has no attribute 'data'
+2021-11-30/13:30:43		Finding missing values failed. Exited the is_null_present method of the Preprocessor class
+2021-11-30/14:28:30		Entered the is_null_present method of the Preprocessor class
+2021-11-30/14:28:30		Exception occured in is_null_present method of the Preprocessor class. Exception message:  'Preprocessing' object has no attribute 'data'
+2021-11-30/14:28:30		Finding missing values failed. Exited the is_null_present method of the Preprocessor class
+2021-11-30/15:09:11		Entered the is_null_present method of the Preprocessor class
+2021-11-30/15:09:11		Exception occured in is_null_present method of the Preprocessor class. Exception message:  'region'
+2021-11-30/15:09:11		Finding missing values failed. Exited the is_null_present method of the Preprocessor class
+2021-11-30/15:20:00		Entered the is_null_present method of the Preprocessor class
+2021-11-30/15:20:00		Exception occured in is_null_present method of the Preprocessor class. Exception message:  'region'
+2021-11-30/15:20:00		Finding missing values failed. Exited the is_null_present method of the Preprocessor class
+2021-11-30/15:21:53		Entered the is_null_present method of the Preprocessor class
+2021-11-30/15:21:53		Exception occured in is_null_present method of the Preprocessor class. Exception message:  'region'
+2021-11-30/15:21:53		Finding missing values failed. Exited the is_null_present method of the Preprocessor class
+2021-11-30/15:27:58		Entered the is_null_present method of the Preprocessor class
+2021-11-30/15:27:58		Exception occured in is_null_present method of the Preprocessor class. Exception message:  'region'
+2021-11-30/15:27:58		Finding missing values failed. Exited the is_null_present method of the Preprocessor class
+2021-11-30/18:30:33		Entered the is_null_present method of the Preprocessor class
+2021-11-30/18:30:33		Exception occured in is_null_present method of the Preprocessor class. Exception message:  'region'
+2021-11-30/18:30:33		Finding missing values failed. Exited the is_null_present method of the Preprocessor class
+2021-11-30/18:54:42		Entered the is_null_present method of the Preprocessor class
+2021-11-30/18:54:42		Exception occured in is_null_present method of the Preprocessor class. Exception message:  'region'
+2021-11-30/18:54:42		Finding missing values failed. Exited the is_null_present method of the Preprocessor class
+2021-11-30/20:18:27		Entered the is_null_present method of the Preprocessor class
+2021-11-30/20:20:30		Entered the is_null_present method of the Preprocessor class
+2021-11-30/20:20:30		Data has been treated
+2021-11-30/20:20:58		Entered the is_null_present method of the Preprocessor class
+2021-11-30/20:20:58		Data has been treated
+2021-11-30/20:21:45		Entered the is_null_present method of the Preprocessor class
+2021-11-30/20:21:45		Data has been treated
+2021-11-30/20:35:21		Start of Prediction
+2021-11-30/20:35:21		Entered the get_data method of the Data_Getter class
+2021-11-30/20:35:21		Data Load Successful.Exited the get_data method of the Data_Getter class
+2021-11-30/20:35:21		data input col:Index(['age', 'sex', 'bmi', 'children', 'smoker', 'region'], dtype='object')
+2021-11-30/20:35:21		Entered the is_null_present method of the Preprocessor class
+2021-11-30/20:35:21		Data has been treated
+2021-11-30/20:35:21		Entered the encode_categorical_columns method of the Preprocessor class
+2021-11-30/20:35:21		data:Index(['sex', 'smoker', 'region'], dtype='object')
+2021-11-30/20:35:21		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2021-11-30/20:35:21		Entered the scaling_of_Numcol method of the Preprocessor class
+2021-11-30/20:35:21		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2021-11-30/20:35:21		Entered the load_model method of the File_Operation class
+2021-11-30/20:35:21		Model File randomForest loaded. Exited the load_model method of the Model_Finder class
+2021-11-30/20:35:21		prediction:Index(['age', 'sex', 'bmi', 'children', 'smoker', 'region'], dtype='object')
+2021-11-30/20:35:21		prediction:Index(['age', 'sex', 'bmi', 'children', 'smoker', 'region',
+       'Predicted_Expenses'],
+      dtype='object')
+2021-11-30/20:35:21		End of Prediction
+2021-11-30/23:28:37		Start of Prediction
+2021-11-30/23:28:37		Entered the get_data method of the Data_Getter class
+2021-11-30/23:28:37		Data Load Successful.Exited the get_data method of the Data_Getter class
+2021-11-30/23:28:37		data input col:Index(['age', 'sex', 'bmi', 'children', 'smoker', 'region'], dtype='object')
+2021-11-30/23:28:37		Entered the is_null_present method of the Preprocessor class
+2021-11-30/23:28:37		Data has been treated
+2021-11-30/23:28:37		Entered the encode_categorical_columns method of the Preprocessor class
+2021-11-30/23:28:37		data:Index(['sex', 'smoker', 'region'], dtype='object')
+2021-11-30/23:28:37		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2021-11-30/23:28:37		Entered the scaling_of_Numcol method of the Preprocessor class
+2021-11-30/23:28:37		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2021-11-30/23:28:37		Entered the load_model method of the File_Operation class
+2021-11-30/23:28:37		Model File randomForest loaded. Exited the load_model method of the Model_Finder class
+2021-11-30/23:28:37		prediction:Index(['age', 'sex', 'bmi', 'children', 'smoker', 'region'], dtype='object')
+2021-11-30/23:28:37		prediction:Index(['age', 'sex', 'bmi', 'children', 'smoker', 'region',
+       'Predicted_Expenses'],
+      dtype='object')
+2021-11-30/23:28:37		End of Prediction
+2021-11-30/23:37:28		Start of Prediction
+2021-11-30/23:37:28		Entered the get_data method of the Data_Getter class
+2021-11-30/23:37:28		Data Load Successful.Exited the get_data method of the Data_Getter class
+2021-11-30/23:37:28		data input col:Index(['age', 'sex', 'bmi', 'children', 'smoker', 'region'], dtype='object')
+2021-11-30/23:37:28		Entered the is_null_present method of the Preprocessor class
+2021-11-30/23:37:28		Data has been treated
+2021-11-30/23:37:28		Entered the encode_categorical_columns method of the Preprocessor class
+2021-11-30/23:37:28		data:Index(['sex', 'smoker', 'region'], dtype='object')
+2021-11-30/23:37:28		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2021-11-30/23:37:28		Entered the scaling_of_Numcol method of the Preprocessor class
+2021-11-30/23:37:29		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2021-11-30/23:37:29		Entered the load_model method of the File_Operation class
+2021-11-30/23:37:29		Model File randomForest loaded. Exited the load_model method of the Model_Finder class
+2021-11-30/23:37:29		prediction:Index(['age', 'sex', 'bmi', 'children', 'smoker', 'region'], dtype='object')
+2021-11-30/23:37:29		prediction:Index(['age', 'sex', 'bmi', 'children', 'smoker', 'region',
+       'Predicted_Expenses'],
+      dtype='object')
+2021-11-30/23:37:29		End of Prediction
+2021-12-01/11:17:10		Start of Prediction
+2021-12-01/11:17:10		Entered the get_data method of the Data_Getter class
+2021-12-01/11:17:10		Data Load Successful.Exited the get_data method of the Data_Getter class
+2021-12-01/11:17:10		data input col:Index(['age', 'sex', 'bmi', 'children', 'smoker', 'region'], dtype='object')
+2021-12-01/11:17:10		Entered the is_null_present method of the Preprocessor class
+2021-12-01/11:17:10		Data has been treated
+2021-12-01/11:17:10		Entered the encode_categorical_columns method of the Preprocessor class
+2021-12-01/11:17:10		data:Index(['sex', 'smoker', 'region'], dtype='object')
+2021-12-01/11:17:10		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2021-12-01/11:17:10		Entered the scaling_of_Numcol method of the Preprocessor class
+2021-12-01/11:17:10		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2021-12-01/11:17:10		Entered the load_model method of the File_Operation class
+2021-12-01/11:17:10		Model File randomForest loaded. Exited the load_model method of the Model_Finder class
+2021-12-01/11:17:10		prediction:Index(['age', 'sex', 'bmi', 'children', 'smoker', 'region'], dtype='object')
+2021-12-01/11:17:10		prediction:Index(['age', 'sex', 'bmi', 'children', 'smoker', 'region',
+       'Predicted_Expenses'],
+      dtype='object')
+2021-12-01/11:17:10		End of Prediction
